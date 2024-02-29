@@ -16,7 +16,8 @@
             <h1 class="titulo-noticia">
                 {{$titulo}}
             </h1>
-            <p>{{$descricao}} e {{$dt_publicacao}}</p>
+            <p>{{$descricao}}</p>
+            <p>Data da publicação: {{$dt_publicacao}}</p>
             <img/>{{$imagem}}
 
         </section>
