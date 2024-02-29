@@ -15,9 +15,9 @@ class HomeController extends Controller
 
     $dados = [
         'titulo'=> $titulo,
-        'descrição'=>$descricao,
+        'descricao'=>$descricao,
         'imagem'=> $imagem,
-        'data de publicação'=>$dt_publicacao
+        'dt_publicacao'=>$dt_publicacao
 
     ];
 

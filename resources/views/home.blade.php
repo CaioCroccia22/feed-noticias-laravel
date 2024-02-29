@@ -14,9 +14,11 @@
       <main class="feed">
         <section id="noticia1">
             <h1 class="titulo-noticia">
-                Acidente na Dutra
+                {{$titulo}}
             </h1>
-            <p>Acidente hoje de manhã</p>
+            <p>{{$descricao}} e {{$dt_publicacao}}</p>
+            <img/>{{$imagem}}
+
         </section>
       </main>
     </div>
