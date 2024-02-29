@@ -13,12 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
-    echo "Pagina 1";
-});
+Route::view('/', 'home');
 
-Route::get('/home/materia', function () {
-    echo "materia";
+Route::get('/home/{id}', function ($id) {
+    echo "materia: ".$id;
 });
 
 
