@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# feed-noticias-laravel
+O problema que você deve resolver é a entrega de um feed de notícias para uma aplicação com o uso de API, utilizando ferramentas open-source. Como ferramentas para esse desafio, você deve usar a linguagem PHP e framework Laravel ou Lumen
+>>>>>>> 38601cce0f94632a9cd5ecc8a37991c6b49d4b35
