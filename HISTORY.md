@@ -12,3 +12,5 @@ docker-compose up -d
 Foi alterado a time zone para garanitir que as operações de data e hora no laravel são executadas corretamente.
 O identificador foi localizado na documentação: 
 https://www.php.net/manual/en/timezones.america.php
+
+
