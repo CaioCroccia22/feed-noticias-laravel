@@ -7,22 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    Página do feed de noticias
-    <div id="main">
-      <header id="navbar">
-        Simetria
-      </header>
-      <main class="feed">
-        <section id="noticia1">
-            <h1 class="titulo-noticia">
-                {{$titulo}}
-            </h1>
-            <p>{{$descricao}}</p>
-            <p>Data da publicação: {{$dt_publicacao}}</p>
-            <img/>{{$imagem}}
-
-        </section>
-      </main>
-    </div>
+    <h1>{{ $titulo }}</h1>
+    <p>{{ $descricao }}</p>
+    <img src="{{ $imagem }}" alt="Imagem">
+    <p>Data de publicação: {{ $dt_publicacao }}</p>
 </body>
 </html>
