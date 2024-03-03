@@ -2,18 +2,19 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
-use App\Models\Materias;
+use App\Models\Materia;
 use Illuminate\Http\Request;
-
-use Illuminate\Support\Facades\Redis;
-
-
-
-class MateriasController extends Controller
+use App\Http\Controllers\Controller; 
+class MateriasController extends Controller 
 {
     public function index()
     {
-        return Materias::all();
+        $materias = Materia::paginate(10); 
+        return response()->json($materias);
+    }
+
+    public function show(Materia $materia)
+    {
+        return response()->json($materia);
     }
 }

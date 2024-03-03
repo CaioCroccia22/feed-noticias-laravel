@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Materia extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'titulo', 'descricao', 'texto_completo', 'imagem', 'data_de_publicacao',
+    ];
 }
