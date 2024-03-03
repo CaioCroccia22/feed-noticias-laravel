@@ -6,10 +6,12 @@ use App\Http\Controllers\MateriaController;
 
 
 
-// Route::get('/', [HomeController::class, 'index']);
-Route::get('/', [HomeController::class, 'index']);
+
+Route::get('/home', function(){
+    return view('home');
+});
 
 
-Route::get('/{titulo}', [MateriaController::class, 'index']);
+
 
 

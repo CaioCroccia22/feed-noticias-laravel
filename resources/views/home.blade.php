@@ -7,9 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{ $titulo }}</h1>
-    <p>{{ $descricao }}</p>
-    <img src="{{ $imagem }}" alt="Imagem">
-    <p>Data de publicação: {{ $dt_publicacao }}</p>
+    <h1>Noticia</h1>
+
 </body>
 </html>
